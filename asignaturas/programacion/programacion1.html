@@ -146,10 +146,10 @@
   <!--end section-->
   <div class="clearfix"></div>
   
- <section class="sec-tpadding-2">
+ <section class="sec-tpadding-2 contentTemary">
     <div class="container">
       <div class="row">
-          <h3 class=" roboto-slab uppercase less-mar3"  style="color: #42a5f5;">Introducción a la programación</h3>
+          <h3 class=" roboto-slab uppercase less-mar3">Introducción a la programación</h3>
             <div class="title-line-9 less-margin align-center"></div>
             <div class="clearfix"></div>
       </div>
@@ -158,7 +158,7 @@
       <div class="row">
         <div class="col-md-8 col-centered">
 
-          <h4 style="color: #42a5f5;">1. Introducción.</h4>
+		  <h4>1. Introducción.</h4>
 
           <p>
             ¿Cuántas acciones de las que has realizado hoy, crees que están relacionadas con la programación?
@@ -166,9 +166,13 @@
             el desayuno utilizando el microondas, mientras desayunabas has visto u oído las últimas noticias a través de tu receptor de televisión 
             digital terrestre, te has vestido y puede que hayas utilizado el ascensor para bajar al portal y salir a la calle, etc. 
             Quizás no es necesario que continuemos más, para darnos cuenta de que casi todo lo que nos rodea, en alguna medida, está relacionado con 
-            la programación; los programas y el tratamiento de algún tipo de información.
-            El volumen de datos que actualmente manejamos y sus innumerables posibilidades de tratamiento, constituyen un vasto territorio en el que los 
+			la programación; los programas y el tratamiento de algún tipo de información. 
+		  </p>
+		  <p>
+			El volumen de datos que actualmente manejamos y sus innumerables posibilidades de tratamiento, constituyen un vasto territorio en el que los 
             programadores tienen mucho que decir.
+		  </p>
+          <p>
             En esta primera unidad, realizaremos un recorrido por los conceptos fundamentales de la programación de aplicaciones. 
             Iniciaremos nuestro camino conociendo con qué vamos a trabajar, qué técnicas podemos emplear y qué es lo que pretendemos conseguir. 
             Posteriormente, continuaremos con el análisis de las diferentes formas de programación existentes, identificaremos qué fases conforman el 
@@ -178,8 +182,8 @@
           </p>
           <br>
 
-          <h4 style="color: #42a5f5;">2. Programas y programación.</h4>
-          <h5 style="color: #42a5f5;">2.1. Buscando una solución.</h5>
+          <h4>2. Programas y programación.</h4>
+		  <h5>2.1. Buscando una solución.</h5>
 
           <p>
             Generalmente, la primera razón que mueve a una persona hacia el aprendizaje de la programación es utilizar el ordenador como herramienta para 
@@ -189,23 +193,23 @@
 
           <h6>Resolución de problemas</h6>
 
-          <table style="border: 2px solid black;">
-            <thead style="background: #deeaf6;">
-                <th style="border: 2px solid black;">En la vida real</th>
-                <th style="border: 2px solid black;">En Programación</th>
+          <table class="contentTemary" >
+            <thead>
+                <th>En la vida real</th>
+                <th>En Programación</th>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 2px solid black; padding-left: 1rem;" >Observación de la situación o problema.</td>
-                <td style="border: 2px solid black; padding-left: 1rem;"><b>Análisis del problema:</b>  requiere que el problema sea definido y comprendido claramente para que pueda ser analizado con todo detalle.</td>
+                <td>Observación de la situación o problema.</td>
+                <td><b>Análisis del problema:</b>  requiere que el problema sea definido y comprendido claramente para que pueda ser analizado con todo detalle.</td>
               </tr>
               <tr>
-                <td style="border: 2px solid black; padding-left: 1rem;">Pensamos en una o varias posibles soluciones.</td>
-                <td style="border: 2px solid black; padding-left: 1rem;"><b>Diseño o desarrollo de algoritmos:</b>  procedimiento paso a paso para solucionar el problema dado..</td>
+                <td>Pensamos en una o varias posibles soluciones.</td>
+                <td><b>Diseño o desarrollo de algoritmos:</b>  procedimiento paso a paso para solucionar el problema dado..</td>
               </tr>
               <tr>
-                <td style="border: 2px solid black; padding-left: 1rem;">Aplicamos la solución que estimamos más adecuada.</td>
-                <td style="border: 2px solid black; padding-left: 1rem;"><b>Resolución del algoritmo elegido en la computadora:</b>  consiste en convertir el algoritmo en programa, ejecutarlo y comprobar que soluciona verdaderamente el problema.</td>
+                <td>Aplicamos la solución que estimamos más adecuada.</td>
+                <td><b>Resolución del algoritmo elegido en la computadora:</b>  consiste en convertir el algoritmo en programa, ejecutarlo y comprobar que soluciona verdaderamente el problema.</td>
               </tr>              
             </tbody>
           </table>
@@ -213,9 +217,9 @@
 
           <p>¿Qué virtudes debería tener nuestra solución?</p>
 
-          <ul>
-            <li style="list-style-type: circle;"> <b>Corrección y eficacia:</b> Corrección y eficacia: si resuelve el problema adecuadamente.</li>
-            <li style="list-style-type: circle;"> <b>Eficiencia:</b> Eficiencia: si lo hace en un tiempo mínimo y con un uso óptimo de los recursos del sistema.</li>
+          <ul class="contentTemary">
+            <li> <b>Corrección y eficacia:</b> Corrección y eficacia: si resuelve el problema adecuadamente.</li>
+            <li> <b>Eficiencia:</b> Eficiencia: si lo hace en un tiempo mínimo y con un uso óptimo de los recursos del sistema.</li>
           </ul>
 
           <p>Para conseguirlo, cuando afrontemos la construcción de la solución tendremos que tener en cuenta los siguientes conceptos:</p>
@@ -229,12 +233,12 @@
           </ol>
           <br>
 
-          <h5 style="color: #42a5f5;">2.2. Algoritmos y programas.</h5>
+          <h5>2.2. Algoritmos y programas.</h5>
 
           <p>Después de analizar en detalle el problema a solucionar, hemos de diseñar y desarrollar el algoritmo adecuado. Pero, <b>¿Qué es un algoritmo?</b></p>
           
           <blockquote>
-            Algoritmo: secuencia ordenada de pasos, descrita sin ambigüedades, que conducen a la solución de un problema dado.
+            <span class="contentTemary">Algoritmo: </span> secuencia ordenada de pasos, descrita sin ambigüedades, que conducen a la solución de un problema dado.
           </blockquote>
 
           <p>
@@ -256,36 +260,39 @@
             En esencia, todo problema se puede describir por medio de un algoritmo y las características fundamentales que éstos deben cumplir son:
           </p>
 
-          <ul>
-            <li style="list-style-type: circle;">Debe ser <b>preciso</b> e indicar el orden de realización paso a paso.</li>
-            <li style="list-style-type: circle;">Debe  estar <b>definido</b> , si se ejecuta dos o más veces, debe obtener el mismo resultado cada vez.</li>
-            <li style="list-style-type: circle;">Debe ser <b>finito</b>, debe tener un número finito de pasos.</li>
+          <ul class="contentTemary">
+            <li>Debe ser <b>preciso</b> e indicar el orden de realización paso a paso.</li>
+            <li>Debe  estar <b>definido</b> , si se ejecuta dos o más veces, debe obtener el mismo resultado cada vez.</li>
+            <li>Debe ser <b>finito</b>, debe tener un número finito de pasos.</li>
           </ul>
 
           <p>
-            Pero cuando los problemas son complejos, es necesario descomponer éstos en subproblemas más simples y, a su vez, en otros más pequeños. Estas estrategias reciben el nombre de 
-            <a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Dise%C3%B1o%20descendente%20%28DAW_PROG01%29"  target="_blank" rel="noopener noreferrer">diseño descendente</a> o 
-            <a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Dise%C3%B1o%20modular%20%28DAW_PROG01%29"  target="_blank" rel="noopener noreferrer">diseño modular</a> (<b>top-down design</b>). Este sistema se basa 
-            en el lema <b>divide y vencerás</b>.
+			Pero cuando los problemas son complejos, es necesario descomponer éstos en subproblemas más simples y, a su vez, en otros más pequeños. 
+			Estas estrategias reciben el nombre de <acronym title="Metodología de diseño de programas, consistente en la descomposición del problema 
+			en problemas más sencillos de resolver.">diseño descendente</acronym> o <acronym title="Metodología de diseño de programas, que consiste en dividir la solución a un problema en módulos más pequeños o subprogramas. Las soluciones de los módulos se unirán para obtener la solución general del problema.">diseño modular</acronym> (<b>top-down design</b>). Este sistema se basa en el lema <b>divide y vencerás</b>.
           </p>
 
           <p>
             Para representar gráficamente los algoritmos que vamos a diseñar, tenemos a nuestra disposición diferentes herramientas que ayudarán a describir su comportamiento de una forma precisa y genérica, para luego poder codificarlos con el lenguaje que nos interese. Entre otras tenemos:
           </p>
 
-          <ul>
-            <li style="list-style-type: circle;"><b>Diagramas de flujo: </b> esta técnica utiliza símbolos gráficos para la representación del algoritmo. Suele utilizarse en las fases de análisis.</li>
-            <li style="list-style-type: circle;"><b>Pseudocódigo: </b> esta técnica se basa en el uso de palabras clave en lenguaje natural, <a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Constante%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer"> constantes </a>, 
-              <a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Variable%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">variables</a> , otros objetos, instrucciones y estructuras de programación que expresan de forma escrita la solución del problema. Es la técnica más utilizada actualmente..</li>
-            <li style="list-style-type: circle;"><b>Tablas de decisión:</b> en una tabla son representadas las posibles condiciones del problema con sus respectivas acciones. Suele ser una técnica de apoyo al pseudocódigo cuando existen situaciones condicionales complejas.</li>
+          <ul class="contentTemary">
+            <li><b>Diagramas de flujo: </b> esta técnica utiliza símbolos gráficos para la representación del algoritmo. Suele utilizarse en las fases de análisis.</li>
+			<li><b>Pseudocódigo: </b> esta técnica se basa en el uso de palabras clave en lenguaje natural, 
+				<acronym title="Estructura de datos que se utiliza en los lenguajes de programación que no puede cambiar su contenido en el transcurso del programa.">constantes </acronym>, 
+				<acronym title="Estructura de datos que, como su nombre indica, puede cambiar de contenido a lo largo de la ejecución de un programa."> variables </acronym>, 
+				otros objetos, instrucciones y estructuras de programación que expresan de forma escrita la solución del problema. Es la técnica más utilizada 
+				actualmente.</li>
+			<li><b>Tablas de decisión:</b> en una tabla son representadas las posibles condiciones del problema con sus respectivas acciones. Suele ser una 
+				técnica de apoyo al pseudocódigo cuando existen situaciones condicionales complejas.</li>
           </ul>
 
           <blockquote>
-            <h6><i>Debes conocer</i></h6>
+            <h4><i>Debes conocer</i></h4>
             <p>A continuación, te ofrecemos dos enlaces muy interesantes:</p>
-            <ul>
-              <li style="list-style-type: circle;">En el <a href="https://www.youtube.com/watch?v=tMEscFCEP0g"  target="_blank" rel="noopener noreferrer">primer vídeo</a> puedes ver los elementos gráficos fundamentales que se utilizan para la generación de diagramas de flujo.</li>
-              <li style="list-style-type: circle;">En el <a href="https://www.youtube.com/watch?v=PWgVXuQKrdo"  target="_blank" rel="noopener noreferrer">segundo vídeo</a> se realiza la construcción de un diagrama de flujo con una herramienta gráfica y su transformación a pseudocódigo.</li>
+            <ul class="contentTemary">
+              <li>En el <a href="https://www.youtube.com/watch?v=tMEscFCEP0g"  target="_blank" rel="noopener noreferrer">primer vídeo</a> puedes ver los elementos gráficos fundamentales que se utilizan para la generación de diagramas de flujo.</li>
+              <li>En el <a href="https://www.youtube.com/watch?v=PWgVXuQKrdo"  target="_blank" rel="noopener noreferrer">segundo vídeo</a> se realiza la construcción de un diagrama de flujo con una herramienta gráfica y su transformación a pseudocódigo.</li>
             </ul>
           </blockquote>
           
@@ -310,27 +317,27 @@
           </P>
           <br>
 
-          <h4 style="color: #42a5f5;">3. Paradigmas de la programación.</h4>
+          <h4>3. Paradigmas de la programación.</h4>
 
           <p>
             ¿Cuántas formas existen de hacer las cosas? Supongo que estarás pensando: varias o incluso, muchas. Pero cuando se establece un patrón para la creación de aplicaciones nos estamos acercando al significado de la palabra paradigma. 
           </p>
 
           <blockquote>
-            Paradigma de programación: es un modelo básico para el diseño y la implementación de programas. Este modelo determinará cómo será el proceso de diseño y la estructura final del programa. 
+            <span class="contentTemary">Paradigma de programación: </span> es un modelo básico para el diseño y la implementación de programas. Este modelo determinará cómo será el proceso de diseño y la estructura final del programa. 
           </blockquote>
 
           <p>
             El paradigma representa un enfoque particular o filosofía para la construcción de software. Cada uno tendrá sus ventajas e inconvenientes, será más o menos apropiado, pero no es correcto decir que exista uno mejor que los demás. 
           </p>
 
-          <table style="border: 2px solid black;">
+          <table class="contentTemary">
             <tbody>
               <tr>
-                <th>PARADIGMAS DE PROGRAMACIÓN</th>
+                <th class="contentTemary">PARADIGMAS DE PROGRAMACIÓN</th>
               </tr>
               <tr>
-                <td style="padding: 1rem;"><b>Programación Imperativa:</b> Consiste en una serie de comandos que una computadora ejecutará. Estos <b>comandos detallan de forma clara y específica el cómo hacer las cosas</b> y llevarán al programa a través de distintos 
+                <td class="contentTemary"><b>Programación Imperativa:</b> Consiste en una serie de comandos que una computadora ejecutará. Estos <b>comandos detallan de forma clara y específica el cómo hacer las cosas</b> y llevarán al programa a través de distintos 
                   estados. Utiliza variables, tipos de datos, expresiones y estructuras de control de flujo del programa. De ella se desarrolla la <b>Programación convencional, o no estructurada</b>, sin herramientas de estructuración o modificación de código. Los programas eran líneas de código de difícil 
                   lectura o modificación, basados en instrucciones de salto (Goto) que modificaban el flujo. Eran un único archivo, de difícil mantenimiento y representación. De ahí partió la <b>Programación estructurada</b>, que intentaba solventar los problemas y limitaciones anteriores. Permite utilizar 
                   estructuras de modificación reutilización y lectura de código y el uso del concepto de función (programación modular), que agrupan código para la realización de tareas, donde y cuando se necesiten.
@@ -340,17 +347,17 @@
                 </td>
               </tr>
               <tr>
-                <td style="padding: 1rem;"><b>Programación Declarativa:</b>: Opuesta a la programación imperativa, se basa en el desarrollo de programas realizando una especificación o “declaración” de un conjunto de condiciones, proposiciones, afirmaciones, restricciones y transformaciones que describen el problema y detallan su solución. 
+                <td class="contentTemary"><b>Programación Declarativa:</b>: Opuesta a la programación imperativa, se basa en el desarrollo de programas realizando una especificación o “declaración” de un conjunto de condiciones, proposiciones, afirmaciones, restricciones y transformaciones que describen el problema y detallan su solución. 
                   Las sentencias que se utilizan, lo que hacen es describir el problema que se quiere solucionar, pero no las instrucciones necesarias para llevarlo a cabo. Ej: SQL.
                 </td>
               </tr>
               <tr>
-                <td style="padding: 1rem;">Destacan la programación lógica, donde se especifica qué hacer y no cómo hacerlo. Se utiliza en Inteligencia artificial. Ej: Lenguaje PROLOG. y la programación funcional, considera al programa como una función matemática, donde el dominio representaría el conjunto de todas las entradas posibles(inputs) 
+                <td class="contentTemary">Destacan la programación lógica, donde se especifica qué hacer y no cómo hacerlo. Se utiliza en Inteligencia artificial. Ej: Lenguaje PROLOG. y la programación funcional, considera al programa como una función matemática, donde el dominio representaría el conjunto de todas las entradas posibles(inputs) 
                   y el rango sería el conjunto de todas las salidas posibles (outputs). La forma en que funciona puede ser entendida como una caja negra, ésta tiene una serie de entradas, un procesamiento interno y una salida. 
                 </td>
               </tr>
               <tr>
-                <td style="padding: 1rem;">No existe el concepto de variable, además el funcionamiento es independiente del resto. Ej:Lenguaje LISP.
+                <td class="contentTemary">No existe el concepto de variable, además el funcionamiento es independiente del resto. Ej:Lenguaje LISP.
                 </td>
               </tr>               
             </tbody>
@@ -358,13 +365,17 @@
           <br>
 
           <p>
-            Como habrás podido apreciar, existen múltiples paradigmas, incluso puede haber lenguajes de programación que no se clasifiquen únicamente dentro de uno de ellos. Un lenguaje como <a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Smalltalk%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer"> 
-            Smalltalk</a> es un lenguaje basado en el paradigma orientado a objetos. El lenguaje de programación <a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Scheme%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Scheme</a> , en cambio, soporta sólo programación funcional. 
-            <a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Python%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Python</a>, soporta múltiples paradigmas. 
+            Como habrás podido apreciar, existen múltiples paradigmas, incluso puede haber lenguajes de programación que no se clasifiquen únicamente dentro de uno de ellos. Un lenguaje como
+            <acronym title="Lenguaje de programación que permite realizar tareas de computación mediante la interacción con un entorno de objetos virtuales. Metafóricamente, se puede considerar que Smalltalk es un mundo virtual donde viven objetos que se comunican mediante el envío de mensajes.">
+			 Smalltalk</acronym> es un lenguaje basado en el paradigma orientado a objetos. El lenguaje de programación 
+			 <acronym title="Lenguaje de programación funcional, dialecto de Lisp. Desarrollado en la década de los setenta. Scheme proporciona el mínimo número posible de nociones primitivas, construyendo todo lo demás a partir de un reducido número de abstracciones. Scheme ofrece también gestión automática de memoria. 
+			 Las listas son la estructura de datos básica del lenguaje, que también ofrece arrays entre sus tipos predefinidos."> Scheme</acronym>, en cambio, soporta sólo programación funcional. 
+             <acronym title="Lenguaje de programación de alto nivel, cuya filosofía hace hincapié en una sintaxis limpia y que favorezca un código legible. Es multiparadigma, ya que soporta orientación a objetos, programación imperativa y programación funcional. Es un lenguaje interpretado y está fuertemente tipado. Es multiplataforma.">
+			Python,</acronym> soporta múltiples paradigmas. 
           </p>
 
           <blockquote>
-            <h6><i>Para saber más</i></h6>
+            <h4><i>Para saber más</i></h4>
             <p>
             Te proponemos el siguiente enlace en el que encontrarás información adicional sobre los diferentes paradigmas de programación. <br> 
             <a href="https://javierleal.wordpress.com/2009/08/27/paradigmas-de-programacion/" target="_blank" rel="noopener noreferrer">Paradigmas de programación y lenguajes </a> 
@@ -377,7 +388,7 @@
           </p>
           <br>
 
-          <h4 style="color: #42a5f5;">4. Fases de la programación.</h4>
+          <h4>4. Fases de la programación.</h4>
 
           <p>
             Sea cual sea el estilo que escojamos, a la hora de automatizar una determinada tarea, debemos realizar el proceso aplicando un método a nuestro trabajo. Es decir, sabemos que vamos a dar solución a un problema, aplicando una filosofía de desarrollo y lo haremos dando una serie de pasos que deben estar bien definidos.
@@ -387,16 +398,16 @@
             El proceso de creación de software puede dividirse en diferentes fases:
           </p>
 
-          <ul>
-            <li style="list-style-type: circle;"><b>Fase de resolución del problema.</b></li>
-            <li style="list-style-type: circle;"><b>Fase de implementación. </b></li>
-            <li style="list-style-type: circle;"><b>Fase de explotación y mantenimiento. </b></li>
+          <ul class="contentTemary">
+            <li><b>Fase de resolución del problema.</b></li>
+            <li><b>Fase de implementación. </b></li>
+            <li><b>Fase de explotación y mantenimiento. </b></li>
           </ul>
 
           <p>A continuación, analizaremos cada una de ellas.</p>
           <br>
 
-          <h5 style="color: #42a5f5;">4.1. Resolución del problema.</h5>
+          <h5>4.1. Resolución del problema.</h5>
 
           <p>
             Para el comienzo de esta fase, es necesario que el problema sea definido y comprendido claramente para que pueda ser analizado con todo detalle. A su vez, la fase de resolución del problema puede dividirse en dos etapas:
@@ -407,28 +418,28 @@
               de datos que se van a emplear. La creación de prototipos será muy útil para saber con mayor exactitud los puntos a tratar. <br>
               El análisis inicial ofrecerá una idea general de lo que se solicita, realizando posteriormente sucesivos refinamientos que servirán para dar respuesta a las siguientes cuestiones:
               
-              <ul>
-                <li style="list-style-type: circle;">¿Cuál es la información que ofrecerá la resolución del problema?</li>
-                <li style="list-style-type: circle;">¿Qué datos son necesarios para resolver el problema?</li>
+              <ul class="contentTemary">
+                <li>¿Cuál es la información que ofrecerá la resolución del problema?</li>
+                <li>¿Qué datos son necesarios para resolver el problema?</li>
               </ul>
               <br>
               La respuesta a la primera pregunta se identifica con los resultados deseados o las salidas del problema. La respuesta a la segunda pregunta indicará qué datos se proporcionan o las entradas del problema.
-              <br>
+              <br><br>
               En esta fase debemos aprender a analizar la documentación de la empresa, investigar, observar todo lo que rodea el problema y recopilar cualquier información útil. La implicación en el funcionamiento de la empresa es primordial para la elaboración de un análisis correcto.
               <br><br>
-              <table style="border: 2px solid black;">
+              <table class="contentTemary">
                 <tbody>
                   <tr>
-                    <th>Ejercicio resuelto</th>
+                    <th class="contentTemary">Ejercicio resuelto</th>
                   </tr>
                   <tr>
-                    <td style="padding: 1rem;">Vamos a ilustrar esta fase realizando el análisis del siguiente problema: 
+                    <td class="contentTemary">Vamos a ilustrar esta fase realizando el análisis del siguiente problema: 
                       “Leer el radio de un círculo y calcular e imprimir su superficie y circunferencia.” 
                       Está claro que las entradas de datos en este problema se reducen al radio del círculo, pero piensa ¿qué salidas de datos ofrecerá la solución?                       
                     </td>
                   </tr>
                   <tr>
-                    <td style="padding: 1rem;">Las salidas serán... 
+                    <td class="contentTemary">Las salidas serán... 
                       Variable de salida SUPERFICIE: será la superficie del círculo. (¿Te acuerdas? El número Pi por el radio al cuadrado). <br>
                       Variable de salida CIRCUNFERENCIA: será la longitud de la circunferencia del círculo. (¿Y de ésta? Dos por el número Pi y por el radio) <br>
                       Y la entrada... <br>
@@ -441,19 +452,19 @@
             </li> 
             <li><b>Diseño: </b>. En esta etapa se convierte la especificación realizada en la fase de análisis en un diseño más detallado, indicando el comportamiento o la secuencia lógica de instrucciones capaz de resolver el problema planteado. Estos pasos sucesivos, que indican las 
                instrucciones a ejecutar por la máquina, constituyen lo que conocemos como algoritmo.
-               <br>
+               <br><br>
                Consiste en plantear la aplicación como una única operación global, e ir descomponiéndola en operaciones más sencillas, detalladas y específicas. En cada nivel de refinamiento, las operaciones identificadas se asignan a módulos separados. 
-               <br>
+               <br><br>
                Hay que tener en cuenta que, antes de pasar a la implementación del algoritmo, hemos de asegurarnos que tenemos una solución adecuada. Para ello, todo diseño requerirá de la realización de la <b>prueba o traza</b> del programa. Este proceso consistirá en un seguimiento paso 
                a paso de las instrucciones del algoritmo utilizando datos concretos. Si la solución aportada tiene errores, tendremos que volver a la fase de análisis para realizar las modificaciones necesarias o tomar un nuevo camino para la solución. Sólo cuando el algoritmo cumpla 
                los requisitos y objetivos especificados en la fase de análisis se pasará a la fase de implementación.
-               <br>
+               <br><br>
                En esta fase se pueden detectar errores que nos obliguen a volver a la etapa inicial de análisis.
             </li>
           </ol>
           <br>
 
-          <h5 style="color: #42a5f5;">4.2. Implementación.</h5>
+          <h5>4.2. Implementación.</h5>
 
           <p>
             Si la fase de resolución del problema requiere un especial cuidado en la realización del análisis y el posterior diseño de la solución, la fase de implementación cobra también una especial relevancia. Llevar a la realidad nuestro algoritmo implicará cubrir algunas etapas más que se detallan a continuación.    
@@ -463,21 +474,22 @@
             <li>
               <b>Codificación o construcción. </b>Esta etapa consiste en transformar o traducir los resultados obtenidos a un determinado lenguaje de programación. Para <b>comprobar la calidad y estabilidad</b> de la aplicación se han de realizar una serie de pruebas que comprueben las funciones de cada módulo (<b>pruebas unitarias</b>), 
               que los módulos funcionan bien entre ellos (<b>pruebas de interconexión</b>) y que todos funcionan en conjunto correctamente (<b>pruebas de integración</b>).
-              <br> Cuando realizamos la <b>traducción del algoritmo</b> al lenguaje de programación debemos tener en cuenta las reglas gramaticales y la sintaxis de dicho lenguaje. Obtendremos entonces el <b>código fuente</b>, lo que normalmente conocemos por programa.
-              <br> Pero para que nuestro programa comience a funcionar, antes debe ser traducido a un lenguaje que la máquina entienda. Este proceso de traducción puede hacerse de dos formas, <b>compilando o interpretando</b> el código del programa.
+              <br><br> Cuando realizamos la <b>traducción del algoritmo</b> al lenguaje de programación debemos tener en cuenta las reglas gramaticales y la sintaxis de dicho lenguaje. Obtendremos entonces el <b>código fuente</b>, lo que normalmente conocemos por programa.
+              <br><br> Pero para que nuestro programa comience a funcionar, antes debe ser traducido a un lenguaje que la máquina entienda. Este proceso de traducción puede hacerse de dos formas, <b>compilando o interpretando</b> el código del programa.
               <br><br>
-              <blockquote>Compilación: es el proceso por el cual se traducen las instrucciones escritas en un determinado lenguaje de programación a lenguaje que la máquina es capaz de interpretar</blockquote>
-              <blockquote>Compilador: programa informático que realiza la traducción. Recibe el código fuente, realiza un análisis lexicográfico, semántico y sintáctico, genera un código intermedio no optimizado, optimiza dicho código y finalmente, genera el código objeto para una plataforma específica.</blockquote>
-              <blockquote>Intérprete: programa informático capaz de analizar y ejecutar otros programas, escritos en un lenguaje de alto nivel. Los intérpretes se diferencian de los compiladores en que mientras estos traducen un programa desde su descripción en un lenguaje de programación al código de máquina del sistema, 
+              <blockquote><span class="contentTemary">Compilación:</span> es el proceso por el cual se traducen las instrucciones escritas en un determinado lenguaje de programación a lenguaje que la máquina es capaz de interpretar</blockquote>
+              <blockquote><span class="contentTemary">Compilador:</span> programa informático que realiza la traducción. Recibe el código fuente, realiza un análisis lexicográfico, semántico y sintáctico, genera un código intermedio no optimizado, optimiza dicho código y finalmente, genera el código objeto para una plataforma específica.</blockquote>
+              <blockquote><span class="contentTemary">Intérprete:</span> programa informático capaz de analizar y ejecutar otros programas, escritos en un lenguaje de alto nivel. Los intérpretes se diferencian de los compiladores en que mientras estos traducen un programa desde su descripción en un lenguaje de programación al código de máquina del sistema, 
               los intérpretes sólo realizan la traducción a medida que sea necesaria, típicamente, instrucción por instrucción y, normalmente, no guardan el resultado de dicha traducción.</blockquote>
               <br>
-              Una vez traducido, sea a través de un proceso de compilación o de interpretación, el programa podrá ser ejecutado.
+              Una vez traducido, sea a través de un proceso de compilación o de interpretación, el programa podrá ser ejecutado. <br><br>
             </li>
             <li>
               <b>Prueba de ejecución y validación.</b> Para esta etapa es necesario implantar la aplicación en el sistema donde va a funcionar, debe ponerse en marcha y comprobar si su funcionamiento es correcto. Utilizando diferentes datos de prueba se verá si el programa responde a los requerimientos especificados, si se detectan nuevos errores, 
               si éstos son bien gestionados y si la interfaz es amigable. Se trata de poner a prueba nuestro programa para ver su respuesta en situaciones difíciles. En ocasiones, puede ser que el cliente se implique en esta fase de validación, todo depende de la naturaleza del programa a desarrollar.
-              <br>Mientras se detecten errores y éstos no se subsanen no podremos avanzar a la siguiente fase. Una vez corregido el programa y testeado se documentará mediante:
-              <ul>
+              <br><br> Mientras se detecten errores y éstos no se subsanen no podremos avanzar a la siguiente fase. Una vez corregido el programa y testeado se documentará mediante:
+			  <br><br>
+			  <ul class="contentTemary">
                 <li>
                   <b>Documentación interna: </b>: encabezados, descripciones, declaraciones del problema y comentarios que se incluyen dentro del código fuente.
                 </li>
@@ -497,7 +509,7 @@
 		o <I><B>interpretado</B></I> para que pueda ser ejecutado
 		posteriormente.</P>
 
-		<h5 style="color: #42a5f5;">4.3 Explotación.</h5>
+		<h5>4.3 Explotación.</h5>
 
 		<p>
 			Cuando el programa ya está instalado en el sistema y está siendo de utilidad para los usuarios, decimos que se encuentra en fase de explotación. 
@@ -508,7 +520,7 @@
 		</p>
 
 		<blockquote>
-			<SPAN STYLE="background: #00ffff">Mantenimiento del software:</SPAN> es el proceso de mejora y optimización del software después de su entrega al usuario final. Involucra cambios al software en orden de corregir defectos y 
+			<SPAN class="contentTemary">Mantenimiento del software:</SPAN> es el proceso de mejora y optimización del software después de su entrega al usuario final. Involucra cambios al software en orden de corregir defectos y 
 			dependencias encontradas durante su uso, así como la adición de nuevas funcionalidades para mejorar la usabilidad y aplicabilidad del software.
 		</blockquote>
 
@@ -517,7 +529,7 @@
 		</p>
 
 		<blockquote>
-            <h6><i>Para saber más</i></h6>
+            <h4><i>Para saber más</i></h4>
             <p>
 				En el siguiente video se presenta, de una forma amena, lo visto sobre las <a href="https://www.youtube.com/watch?v=dcfjIUsqKIc" target="_blank" rel="noopener noreferrer">
 					etapas de desarrollo del software.</a> 
@@ -525,7 +537,7 @@
         </blockquote>
 		<br>
 		
-		<h4 style="color: #42a5f5;">5. Ciclo de vida del software.</h4>
+		<h4>5. Ciclo de vida del software.</h4>
 
 
 		<P>
@@ -534,14 +546,14 @@
 		</P>
 
 		<blockquote>
-			<SPAN STYLE="background: #00ffff">Ciclo de vida del software: </SPAN>es una sucesión de estados o fases por las cuales pasa un software a lo largo de su "vida".
+			<SPAN class="contentTemary">Ciclo de vida del software: </SPAN>es una sucesión de estados o fases por las cuales pasa un software a lo largo de su "vida".
 		</blockquote>
 
 		<P>
 			El proceso de desarrollo puede involucrar siempre las siguientes etapas mínimas:
 		</P>
 
-		<ul style="list-style-type: circle;">
+		<ul class="contentTemary">
 			<li>Especificación y Análisis de requisitos.</li>
 			<li>Diseño.</li>
 			<li>Codificación.</li>
@@ -559,9 +571,9 @@
 			Existen varios tipos de ciclos de vida del software, a continuación, te mostramos un resumen de los más importantes.
 		</P>
 
-		<table style="border: 2px solid black;">
-			<thead style="background: #deeaf6;">
-				<th colspan="3" style="border: 2px solid black;">Tipos de Ciclo de vida del Software</th>
+		<table class="contentTemary">
+			<thead >
+				<th class="contentTemary" colspan="3">Tipos de Ciclo de vida del Software</th>
 			</thead>
 			<tbody>
 			  <tr>
@@ -620,7 +632,7 @@
 			prefijados y no variables. 
 		   </P>
 
-		   <h4 style="color: #42a5f5;">6. Lenguajes de programación.</h4>
+		   <h4>6. Lenguajes de programación.</h4>
 
 		   <p>
 			Como hemos visto, en todo el proceso de resolución de un problema mediante la creación de software, después del
@@ -629,35 +641,39 @@
 		   </p>
 
 		   <blockquote>
-			   <span style="background: #00ffff">Lenguaje de programación: </span>
+			   <span class="contentTemary">Lenguaje de programación: </span>
 			   conjunto de <b>reglas sintácticas y semánticas, símbolos y palabras especiales</b> establecidas para la construcción de programas. 
 			   Es un <b>lenguaje artificial</b>, una construcción mental del ser humano para expresar programas.
 		   </blockquote>
 		   
 		   <blockquote>
-				<span style="background: #00ffff">Gramática del lenguaje: </span>
+				<span class="contentTemary">Gramática del lenguaje: </span>
 				reglas aplicables al conjunto de símbolos y palabras especiales del lenguaje de programación <b>para la construcción de sentencias correctas</b>.
 		   </blockquote>
 
 		   <blockquote>
-				<span style="background: #00ffff">Léxico: </span>
+				<span class="contentTemary">Léxico: </span>
 				es el <b>conjunto finito de símbolos y palabras especiales</b>, es el vocabulario del lenguaje. Los símbolos también se denominan <b>elementos léxicos o tokens</b>. Léxico significa diccionario y, aplicado en el ambiente de lenguajes de programación, se utiliza para denotar 
 				los símbolos del lenguaje. Estos símbolos, a su vez, están formados por secuencias de caracteres y existen reglas que determinan cómo puede 
 				generarse o producirse un símbolo a partir de caracteres.
 			</blockquote>
 
 			<p>
-				<span style="background: #00ffff"><b> Sintaxis: </b></span>
+				<span class="contentTemary"><b> Sintaxis: </b></span>
 				es el conjunto de <b>reglas que deben seguirse al escribir el código fuente</b> de los programas <b>para considerarse como correctos</b>para ese lenguaje de programación, 
 				relacionado con las posibles combinaciones de los símbolos y palabras especiales. Está relacionada con la forma de los programas.
 			</p>
 
 			<blockquote>
-				<p>
-					<img src="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_cb7afcbe.png" alt="" width="300rem"><br>
+
+				<P ALIGN=CENTER>
+					<IMG SRC="../../images/programacion/programacion1/ejemplo-sintaxis.png" NAME="" ALIGN=BOTTOM WIDTH=384>
+				</P>
+				
+				<span>
 					Con frecuencia se resaltan los elementos de la sintaxis con colores diferentes para facilitar su lectura. Este ejemplo está escrito en 
 					<a ref="https://es.wikipedia.org/wiki/Python" target="_blank" rel="noopener noreferrer">Python</a> 
-				</p>
+				</span>
 			 </blockquote>
 
 			 <p>
@@ -668,7 +684,7 @@
 			 </p>
 
 			 <blockquote>
-				<span style="background: #00ffff">Semántica: </span>
+				<span class="contentTemary">Semántica: </span>
 				es el <b>significado de cada construcción</b> del lenguaje, la <b>acción que se llevará a cabo</b>. Por tanto, la semántica de un lenguaje de 
 				programación se refiere al significado que adoptan las distintas sentencias, expresiones y enunciados de un programa. La semántica engloba 
 				aspectos sensibles al contexto, a diferencia de la sintaxis que considera aspectos libres de contexto.
@@ -689,14 +705,12 @@
 				El lenguaje de los computadores son códigos binarios, es decir, secuencias de unos y ceros. Detallaremos seguidamente las características principales de los lenguajes de programación. 
 			</p>
 
-			<h5 style="color: #42a5f5;">6.1. Lenguaje máquina.</h5>
+			<h5>6.1. Lenguaje máquina.</h5>
 
 			<p>
 				Este es el lenguaje utilizado directamente por el procesador, consta de un conjunto de <b>instrucciones codificadas en binario</b>. 
-				Es el sistema de códigos directamente interpretable por un 
-				<a href="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Circuito%20microprogramable%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">
-					circuito microprogramable
-				</a>.
+				Es el sistema de códigos directamente interpretable por un <acronym title="Dispositivo o conjunto de dispositivos de propósito general, que, según sea necesario, se programan para resolver distintos problemas.">
+					circuito microprogramable</acronym>.
 			</p>
 
 			<p>
@@ -709,18 +723,18 @@
 				Programar en este tipo de lenguaje presentaba los siguientes inconvenientes:
 			</p>
 
-			<ul>
-				<li style="list-style-type: circle;">
+			<ul  class="contentTemary">
+				<li>
 					Cada programa era válido sólo para un tipo de procesador u ordenador.
 				</li>
-				<li style="list-style-type: circle;">
+				<li>
 					La lectura o interpretación de los programas era extremadamente difícil y, por tanto, insertar modificaciones resultaba muy costoso.
 				</li>
-				<li style="list-style-type: circle;">
+				<li>
 					Los programadores de la época debían memorizar largas combinaciones de ceros y unos, que equivalían a las instrucciones disponibles
 					 para los diferentes tipos de procesadores.
 				</li>
-				<li style="list-style-type: circle;">
+				<li>
 					Los programadores se encargaban de introducir los códigos binarios en el computador, lo que provocaba largos tiempos de preparación 
 					y posibles errores.
 				</li>
@@ -731,26 +745,26 @@
 			</p>
 
 
-			<table style="text-align: center;">
+			<table>
 				<thead>
-					<th colspan="2">Algunas operaciones en lenguaje máquina.</th>
+					<th colspan="2" style="background: none; border: none;">Algunas operaciones en lenguaje máquina.</th>
 				</thead>
-				<thead style="background: #deeaf6;">
-					<th style="border: 2px solid black;">Operación</th>
-					<th style="border: 2px solid black;">Lenguaje máquina</th>
+				<thead class="contentTemary">
+					<th>Operación</th>
+					<th>Lenguaje máquina</th>
 				</thead>
 				<tbody>
 					<tr>
-					<td style="border: 2px solid black; padding-left: 1rem;" ><b>SUMAR</b></td>
-					<td style="border: 2px solid black; padding-left: 1rem;">00101101</td>
+					<td class="resalted"><b>SUMAR</b></td>
+					<td>00101101</td>
 					</tr>
 					<tr>
-					<td style="border: 2px solid black; padding-left: 1rem;" ><b>RESTAR</b></td>
-					<td style="border: 2px solid black; padding-left: 1rem;">00010011</td>
+					<td class="resalted"><b>RESTAR</b></td>
+					<td>00010011</td>
 					</tr>
 					<tr>
-					<td style="border: 2px solid black; padding-left: 1rem;" ><b>MOVER</b></td>
-					<td style="border: 2px solid black; padding-left: 1rem;">00111010</td>
+					<td class="resalted"><b>MOVER</b></td>
+					<td>00111010</td>
 					</tr>		              
 				</tbody>
 			</table>			
@@ -771,20 +785,21 @@
 			<P>En el siguiente ejemplo puedes ver un ejemplo de
 			lenguajes de máquina y ensamblador, resaltando en rojo el código
 			máquina, en morado el código ensamblador y las directrices de
-			memoria, en azul.</P>
+			memoria, en azul.</P><br>
+
             <P ALIGN=CENTER>
-				<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_a14928a1.png" NAME="Imagen 7" ALIGN=BOTTOM WIDTH=384 HEIGHT=168 BORDER=0>
+				<IMG SRC="../../images/programacion/programacion1/ejemplo-maquina-ensamblador.png" NAME="" ALIGN=BOTTOM WIDTH=384>
 			</P>
 
 			<blockquote>
-				<h6><i>Para saber más</i></h6>
+				<h4><i>Para saber más</i></h4>
 				<p>
 					Como recordatorio, te proponemos el siguiente <a href="https://www.youtube.com/watch?v=cJhy9JutK_4" target="_blank" rel="noopener noreferrer">enlace</a> sobre cómo funciona el sistema binario. 
 				</p>
 			</blockquote>
 			<br>
 
-			<h5 style="color: #42a5f5;">6.2. Lenguaje Ensamblador.</h5>
+			<h5>6.2. Lenguaje Ensamblador.</h5>
 			 
 			<P>La evolución del lenguaje máquina fue el lenguaje ensamblador. Las instrucciones ya no son secuencias binarias, se
 				sustituyen por <B>códigos de operación que describen una operación elemental del procesador</B>. Es un <B>lenguaje de bajo nivel</B>, al
@@ -792,7 +807,7 @@
 			</P>
 
 			<blockquote>
-				<span style="background: #00ffff"><b>Mnemotécnico:</b></span> son palabras especiales, que sustituyen largas secuencias de ceros y unos, utilizadas para referirse a diferentes 
+				<span class="contentTemary"><b>Mnemotécnico:</b></span> son palabras especiales, que sustituyen largas secuencias de ceros y unos, utilizadas para referirse a diferentes 
 				operaciones disponibles en el juego de instrucciones que soporta cada máquina en particular.
 			</blockquote>
 
@@ -828,25 +843,26 @@
 
 			<P>
 				En el siguiente gráfico puedes ver parte de un programa escrito en lenguaje ensamblador. En color rojo se ha resaltado el código
-				máquina en <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Hexadecimal%20%28DAW_PROG01%29"  
-				target="_blank" rel="noopener noreferrer">hexadecimal</A>, en magenta el código escrito en ensamblador y en azul, las direcciones de memoria
+				máquina en 
+				<acronym title="Sistema numérico en base 16, esto significa que contiene 16 símbolos únicos para representar datos: los números del 0 al 9 y las letras de la A a la F.">
+				hexadecimal</acronym>, en magenta el código escrito en ensamblador y en azul, las direcciones de memoria
 				donde se encuentra el código. 
 			</P>
 
 			<P ALIGN=CENTER STYLE="margin-top: 0.08in">
-				<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_f3143e05.png" NAME="Imagen 9" ALIGN=BOTTOM WIDTH=456 HEIGHT=131 BORDER=0>
+				<IMG SRC="../../images/programacion/programacion1/ejemplo-hexadecimal-ensamblador.png" NAME="" ALIGN=BOTTOM WIDTH=456 HEIGHT=131 BORDER=0>
 			</P>
 
 			<P ALIGN=JUSTIFY>
 				Pero, aunque ensamblador fue un intento por	aproximar el lenguaje de los procesadores al lenguaje humano, presentaba múltiples dificultades:
 			</P>
 
-			<ul>
-				<li style="list-style-type: circle;">Los programas seguían dependiendo directamente del hardware que los soportaba.</li>
-				<li style="list-style-type: circle;">Los programadores tenían que conocer detalladamente la máquina sobre la que programaban, ya que debían 
+			<ul class="contentTemary">
+				<li>Los programas seguían dependiendo directamente del hardware que los soportaba.</li>
+				<li>Los programadores tenían que conocer detalladamente la máquina sobre la que programaban, ya que debían 
 					hacer un uso adecuado de los recursos de dichos sistemas.
 				</li>
-				<li style="list-style-type: circle;">La lectura, interpretación o modificación de los programas seguía presentando dificultades.</li>
+				<li>La lectura, interpretación o modificación de los programas seguía presentando dificultades.</li>
 			 </ul>
 
 			<P>
@@ -856,29 +872,28 @@
 				como programa objeto que será directamente ejecutado por la computadora.
 			</P>
 			
-			<h5 style="color: #42a5f5;">6.3. Lenguajes compilados.</h5>
+			<h5>6.3. Lenguajes compilados.</h5>
 
-			<P ALIGN=JUSTIFY>Para paliar los problemas derivados del uso del lenguaje ensamblador y con el objetivo de acercar la programación hacia 
+			<P>Para paliar los problemas derivados del uso del lenguaje ensamblador y con el objetivo de acercar la programación hacia 
 				el <B>uso de un lenguaje más cercano al humano</B> que al del computador, nacieron los lenguajes compilados. Algunos ejemplos de
-			   este tipo de lenguajes son: Pascal, Fortran, Algol, C, <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=C%2B%2B%20%28DAW_PROG01%29" 
-			   target="_blank" rel="noopener noreferrer">C++</A>, etc.
+			   este tipo de lenguajes son: Pascal, Fortran, Algol, C, 
+			   <acronym title="Es el lenguaje de programación C ampliado para poder utilizar los mecanismos que permitan la manipulación de objetos. Es un lenguaje multiparadigma.">C++</acronym>, etc.
 			</P>
 
-			<P ALIGN=JUSTIFY>Al ser lenguajes más cercanos al humano, también se les denomina <B>lenguajes de alto nivel</B>. Son más fáciles de 
+			<P>Al ser lenguajes más cercanos al humano, también se les denomina <B>lenguajes de alto nivel</B>. Son más fáciles de 
 				utilizar y comprender. Las instrucciones que forman parte de estos lenguajes utilizan palabras y signos reconocibles por el 
 				programador.
 			</P>
 
-			<P ALIGN=JUSTIFY>¿Cuáles son sus <B>ventajas</B>?</P>
+			<P>¿Cuáles son sus <B>ventajas</B>?</P>
 
-			<ul>
-				<li style="list-style-type: circle;">Son mucho más fáciles de aprender y de utilizar que sus predecesores.</li>
-				<li style="list-style-type: circle;">Se reduce el tiempo para desarrollar programas, así como los costes.</li>
-				<li style="list-style-type: circle;">
+			<ul class=" contentTemary">
+				<li>Son mucho más fáciles de aprender y de utilizar que sus predecesores.</li>
+				<li>Se reduce el tiempo para desarrollar programas, así como los costes.</li>
+				<li>
 					Son independientes del hardware, los programas pueden ejecutarse en diferentes tipos de máquina.
-				</li>
-				
-				<li style="list-style-type: circle;">La lectura, interpretación y modificación de los programas es mucho más sencilla.</li>
+				</li>			
+				<li>La lectura, interpretación y modificación de los programas es mucho más sencilla.</li>
 			 </ul>
 
 			<P>Pero un programa que está escrito en un lenguaje de
@@ -888,24 +903,24 @@
 		   </P>
 
 		   <blockquote>
-			<span style="background: #00ffff"><b>Compilador:</b></span> es un programa informático cuya función consiste en traducir 
+			<span class="contentTemary"><b>Compilador:</b></span> es un programa informático cuya función consiste en traducir 
 			el código fuente de un programa escrito en un lenguaje de alto nivel a lenguaje máquina. Al proceso de traducción se le conoce 
 			con el nombre de compilación.
-		   </blockquote>
+		   </blockquote><br>
 
 		   <blockquote>
 			   <p>Para ilustrar el proceso de compilación de programas te proponemos el siguiente enlace:</p>
-				  <span>
-					  <a href="http://commons.wikimedia.org/wiki/File:CompilationScheme-Spanish.png"  target="_blank" rel="noopener noreferrer">
-						Proceso de compilación en varias plataformas
-					  </a>
-				  </span>
-		   </blockquote>
-
-		   <P>
-			   <IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_aa5dd220.png" NAME="Imagen 12" ALIGN=LEFT HSPACE=12 WIDTH=213 HEIGHT=267 BORDER=0>
-	       </P>
-		   <br><br>
+			   <p>
+				<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_aa5dd220.png" 
+				NAME="Imagen 12"  WIDTH=213  BORDER=0>
+				<span>
+					<a href="http://commons.wikimedia.org/wiki/File:CompilationScheme-Spanish.png"  target="_blank" rel="noopener noreferrer">
+					  Proceso de compilación en varias plataformas
+					</a>
+				</span>
+			   </p>
+				  
+		   </blockquote><br>
 
 		   <P>El <B>compilador </B>realizará la <B>traducción </B>y además informará de los posibles errores. Una vez subsanados, se 
 			generará el programa traducido a código máquina, conocido como <B>código objeto</B>. Este programa <B>aún no podrá ser ejecutado</B>
@@ -913,10 +928,15 @@
 			enlazado, se obtiene el <B>código ejecutable</B>.
 		   </P>
 
-		   <P><BR><BR><br>
-		   </P>
+		    <p>
+			  <IMG SRC="../../images/programacion/programacion1/compilador.jpg" NAME="compilador" title="Fuente: Softwaredebase6isc" ALIGN=CENTER HSPACE=12 WIDTH=213 HEIGHT=267 BORDER=0>
+			</p>
+			<P>
+				<FONT SIZE=2 STYLE="font-size: 9pt"><I>Fuente: Softwaredebase6isc</I></FONT>
+			</P><br>
+		  
 
-		   <h5 style="color: #42a5f5;">6.4. Lenguajes interpretados.</h5>
+		   <h5>6.4. Lenguajes interpretados.</h5>
 
 			<P>Se caracterizan por estar diseñados para que su
 			ejecución se realice a través de un<B> intérprete</B>. Cada
@@ -927,7 +947,7 @@
 			</P>
 
 			<blockquote>
-				<span style="background: #00ffff"><b>Intérprete: </b></span>es un programa traductor de un lenguaje de alto nivel en el que el 
+				<span class="contentTemary"><b>Intérprete: </b></span>es un programa traductor de un lenguaje de alto nivel en el que el 
 				proceso de traducción y de ejecución se lleva a cabo simultáneamente, es decir, la instrucción se pasa a lenguaje máquina y se 
 				ejecuta directamente. No se genera programa objeto, ni programa ejecutable.
 			</blockquote>
@@ -941,7 +961,7 @@
 			necesario en el caso de un programa compilado, para los que sólo es
 			necesario tener el programa ejecutable para poder utilizarlo.</P>
 			<P>Ejemplos de lenguajes interpretados son: <B>Perl,
-			PHP, Python, JavaScript,</B> etc.</P>
+			<acronym title="Hypertext Pre-processor">PHP</acronym>, Python, JavaScript,</B> etc.</P>
 			<P>A medio camino entre los lenguajes compilados y los
 			interpretados, existen los lenguajes que podemos denominar
 			<B>pseudo-compilados o pseudo-interpretados</B>, es el caso del
@@ -955,7 +975,7 @@
 			este código y, para su ejecución, lo traducirá a código máquina
 			del procesador en particular sobre el que se esté trabajando.</P>
 
-			<table style="border: 2px solid black;">
+			<table class="contentTemary">
                 <tbody>
                   <tr>
 					<td style="padding: 1rem;">
@@ -967,7 +987,7 @@
                   <tr>
 					<td style="padding: 1rem;">
 						<P ALIGN=CENTER STYLE="margin-top: 0.08in">
-							<img src="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_12691e68.png" NAME="Imagen 4" ALIGN=BOTTOM WIDTH=307 HEIGHT=114 BORDER=0>
+							<img src="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_12691e68.png" title="Lenguajes compilados vs. interpretados. Fuente: endlessly" NAME="Imagen 4" ALIGN=BOTTOM WIDTH=307 HEIGHT=114 BORDER=0>
 						</P>
 						
 						<P ALIGN=CENTER>
@@ -990,7 +1010,7 @@
 			  </table><br>
 			  
 			  <blockquote>
-				<h6><i>Debes conocer</i></h6>
+				<h4><i>Debes conocer</i></h4>
 				<p>Puedes entender por qué Java es un lenguaje compilado e interpretado a través del siguiente esquema. </p>
 				<a href="http://www.dtic.upf.edu/%7Evlopez/docencia/castellano/todoshtml/PIt3cas/node6.html"  target="_blank" rel="noopener noreferrer">
 					El lenguaje Java es compilado e interpretado.
@@ -1016,9 +1036,8 @@
 				código fuente del programa.
 			</P><br>
 			
-			<h4 style="color: #42a5f5;">7. El lenguaje de programación Java.</h4>
-			<h5 style="color: #42a5f5;">7.1. ¿Qué y cómo es Java?</h5>
-
+			<h4>7. El lenguaje de programación Java.</h4>
+			<h5>7.1. ¿Qué y cómo es Java?</h5>
 
 			<P>Java es un lenguaje sencillo de aprender, con una
 			sintaxis parecida a la de C++, pero en la que se han eliminado
@@ -1059,7 +1078,7 @@
 			<P>Las características principales de lenguaje Java se resumen a continuación: 
 			</P>
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary">
 				<LI>El código generado
 				por el compilador Java es independiente de la arquitectura.
 				<LI>Está totalmente
@@ -1067,7 +1086,11 @@
 				<LI>Su sintaxis es
 				similar a C y C++.
 				<LI>Es distribuido,
-				preparado para aplicaciones <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=TCP/IP%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">TCP/IP</A>.
+				preparado para aplicaciones 
+				<acronym title="El modelo TCP/IP es una descripción de protocolos de red.
+				Es utilizado para cominicaciones en redes y, como todo protocolo,describe un conjunto de guias generales de operación para permitir que un eequipo pueda conectarse en una red.
+				TCP/IP provee concetividad de extremo a extremo especificando cómo los datos deberían ser formateados, direccionados, transmitidos, enrutados y recibidos por el destinatario.">
+			    TCP/IP</acronym>.
 				<LI>Dispone de un amplio
 				conjunto de bibliotecas.
 				<LI>Es robusto,
@@ -1076,15 +1099,15 @@
 				<LI>La seguridad está
 				garantizada, ya que las aplicaciones Java no acceden a zonas
 				delicadas de memoria o de sistema. 
-			</UL>
+			</UL><br>
 
 			<blockquote>
-				<h6><i>Debes conocer</i></h6>
+				<h4><i>Debes conocer</i></h4>
 				<p>Obtén una descripción detallada de las características reseñadas anteriormente, a través del siguiente artículo: </p>
-					  <a href="http://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje"  target="_blank" rel="noopener noreferrer">Características detalladas del lenguaje Java </a>.
-			</blockquote>
+					  <a href="https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Java/Caracter%C3%ADsticas_del_lenguaje"title="Características detalladas del lenguaje Java"  target="_blank" rel="noopener noreferrer">Características detalladas del lenguaje Java </a>.
+			</blockquote><br>
 
-			<h5 style="color: #42a5f5;">7.2. Breve historia.</h5>
+			<h5>7.2. Breve historia.</h5>
 
 			<P>Java surgió en 1991 cuando un grupo de ingenieros
 			de Sun Microsystems trataron de diseñar un nuevo lenguaje de
@@ -1121,7 +1144,7 @@
 			algo más que un lenguaje de programación, incluye los siguientes
 			elementos:</P>
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary">
 				<LI>Un lenguaje de
 				programación: Java.
 				<LI>Un conjunto de
@@ -1138,14 +1161,16 @@
 			<P ALIGN=CENTER>El siguiente esquema muestra los elementos
 			fundamentales de la plataforma de desarrollo Java 2.</P>
 
-			<P ALIGN=CENTER><IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_f6757df.png" NAME="Imagen 11" ALIGN=BOTTOM WIDTH=453 HEIGHT=380 BORDER=0>
-
+			<P ALIGN=CENTER><IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_f6757df.png" title="Elementos de la plataforma de desarrollo Java 2." NAME="Imagen 11" ALIGN=BOTTOM WIDTH=453 HEIGHT=380 BORDER=0>
+			<br><br>
 			<P>Hay tres ediciones de la plataforma Java 2:</P>
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary">
 				<LI><B>J2SE</B> (Java 2
 				Standar Edition): entorno de Sun relacionado con la creación de
-				aplicaciones y <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Applet%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">applets</A> en lenguaje Java.
+				aplicaciones y <acronym title="Applet es un componente de una aplicación que se ejecuta en el contexto de otro programa, por ejemplo, en un navegador web.">
+					Applets
+				</acronym> en lenguaje Java.
 				<LI><B>J2EE </B>(Java 2
 				Enterprise Edition): pensada para la creación de aplicaciones Java
 				empresariales y del lado del servidor.
@@ -1158,17 +1183,16 @@
 			parte diferenciada de J2SE y J2EE:
 			</P>
 			<p>
-				<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_4ad0f4fb.png" NAME="Imagen 13" ALIGN=LEFT HSPACE=12 WIDTH=195 HEIGHT=129 BORDER=0>
+				<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_4ad0f4fb.png" title="J2SE Fuente: Slireshare" NAME="Imagen 13" ALIGN=LEFT HSPACE=12 WIDTH=195 HEIGHT=129 BORDER=0>
 					<br><br><br><br><br><br><span><I>Fuente: Slireshare</I></span>
 			</p>
 
 			<P>Actualmente, la última versión de Java disponible
-			es <A HREF="https://www.java.com/es/download/">8 Update 60</A>, cuya
-			fecha de revisión fue el 18 de agosto de 2015 y lanzada en marzo de
-			2014. Cabe destacar:
+			es <A HREF="https://www.java.com/es/download/">8 Update 261</A>, cuya
+			fecha de revisión y lanzamiento fue el 14 de julio de 2020. Cabe destacar:
 			</P>
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary">
 				<LI>Incorpora de forma
 				completa la librería JavaFX.
 				<LI>Diferentes mejoras
@@ -1193,14 +1217,14 @@
 			</P>
 			
 			<blockquote>
-				<h6><i>Para saber más</i></h6>
+				<h4><i>Para saber más</i></h4>
 				<p>
 					Si deseas conocer más sobre los orígenes del lenguaje Java, aquí te ofrecemos más información: 
 				</p>
-				<a href="http://www.wikilearning.com/tutorial/tutorial_de_Java-origen_de_Java/3938-4" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.tokioschool.com/noticias/historia-java-el-origen-de-este-lenguaje-de-programacion/http://www.wikile" target="_blank" rel="noopener noreferrer">
 					Los orígenes de Java
 				</a> <br>
-				<a href="http://es.wikipedia.org/wiki/Java_%28lenguaje_de_programaci%C3%B3n%29#Historia" target="_blank" rel="noopener noreferrer">
+				<a href="https://javadesdecero.es/fundamentos/breve-historia-caracteristicas-y-aplicaciones/" target="_blank" rel="noopener noreferrer">
 					Historia de Java
 				</a> <br>
 				<a href="http://www.oracle.com/technetwork/Java/Javase/overview/javahistory-timeline-198369.html" target="_blank" rel="noopener noreferrer">
@@ -1208,9 +1232,9 @@
 				</a> <br>
 			</blockquote>
 			
-			<h5 style="color: #42a5f5;">7.3. La POO y Java.</h5>
+			<h5>7.3. La POO y Java.</h5>
 
-			<P ALIGN=JUSTIFY>En Java, los datos y el código (funciones o
+			<P>En Java, los datos y el código (funciones o
 			métodos) se combinan en entidades llamadas <B>objetos</B>. El objeto
 			tendrá un comportamiento (su código interno) y un estado (los
 			datos). Los objetos permiten la reutilización del código y pueden
@@ -1218,24 +1242,37 @@
 			proyectos distintos. Esta característica permite reducir el tiempo
 			de desarrollo de software. 
 			</P>
-			<P ALIGN=JUSTIFY>Por simplificar un poco las cosas, un programa en
+			<P>Por simplificar un poco las cosas, un programa en
 			Java será como una representación teatral en la que debemos
 			preparar primero cada personaje, definir sus características y qué
 			va a saber hacer. Cuando esta fase esté terminada, la obra se
 			desarrollará sacando personajes a escena y haciéndoles interactuar.
 			</P>
-			<P ALIGN=JUSTIFY>Al emplear los conceptos de la Programación
-			Orientada a Objetos (POO), Java incorpora las tres características
-			propias de este paradigma:<B> <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Encapsulaci%C3%B3n%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">encapsulación</A>,
-			<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Herencia%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">herencia</A></B> y<B> 
-			<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Polimorfismo%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">polimorfismo</A></B>.
-			Los patrones o tipos de objetos se denominan <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Clase%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer"><B>clases</B></A>
-			y los objetos que utilizan estos patrones o pertenecen a dichos
-			tipos, se identifican con el nombre de <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Instancia%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer"><B>instancias</B></A>.
-			Pero, no hay que alarmarse, estos conceptos se verán más adelante
-			en sucesivas unidades. 
-			<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_2dbdc786.png" NAME="Imagen 16" ALIGN=LEFT HSPACE=12 WIDTH=380 HEIGHT=250 BORDER=0>
-			</P>
+			<P>Al emplear los conceptos de la Programación	Orientada a Objetos (POO), Java incorpora las tres características propias de este paradigma:
+			<acronym title="Define el comportamiento de una clase u objeto que tiene dentro de él todo tipo de métodos y datos pero que solo es accesible mediante el paso de mensajes, y los datos a través de los métodos del objeto/clase."> 
+				<b> encapsulación </b></acronym>,<acronym title="Mecanismo para compartir automáticamente métodos y datos entre classes, subclases y objetos.
+				Permite crear nuevas clases introduciendo las variaciones con respecto a su clase padre.
+				Herencia simple: una subclase puede herecar datos y métodos de una clase simple así como añadir o sustraer ciertos comportamientos.
+				Herencia múltiple:posibilidad de adquirir métodos y datos de varias clases simultáneamente."> <b> herencia </b></acronym> y 
+				<acronym title="Los objetos responden a los mensajes que se les envían. Un mismo mensaje puede ser interpretado o dar paso a distintas acciones según que objeto es el destinatario.
+				Con este sistema el emisor se desentiende de los detalles de la ejecución (aunque el programador ha de saber en todo momento cuales son las consecuencias de ese mensaje). "> 
+					<b>polimorfismo</b></acronym>.
+			Los patrones o tipos de objetos se denominan 
+			<acronym title=" Descripción de de objeto. 
+			Consta de una serie de métodos y datos que resumen las características de este objeto. 
+			Definir clases permite trabajar con código reutilizable. 
+			Puesto que desde una clase se puede crear una instancia y así reutilizar el código escrito para esta si tener que volver a escribir el código para la instancia. 
+			La instancia toma el patrón de la clase padre. 
+			Sin embargo, las variables son idependientes."> 
+				<b>clases</b></acronym>,
+			y los objetos que utilizan estos patrones o pertenecen a dichos tipos, se identifican con el nombre de 
+			<acronym title="Se llama instancia a todo objeto que derive de algún otro. De esta forma, todos los objetos son instancias de algún otro, menos la clase Object que es la madre de todas."> 
+				<b>instancias</b></acronym>.
+			Pero, no hay que alarmarse, estos conceptos se verán más adelante en sucesivas unidades.</P> <br>
+			<p align=center>
+				<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_2dbdc786.png" NAME="Imagen 16" ALIGN=CENTER  WIDTH=380 HEIGHT=250 BORDER=0>
+			</p>
+			<br>
 
 			<P>Otro ejemplo para seguir aclarando ideas, piensa en
 			los bloques de juegos de construcción. Suponemos que conoces los
@@ -1255,7 +1292,7 @@
 			comunicarse con los demás de una manera predefinida. 
 			</P>
 
-			<h5 style="color: #42a5f5;">7.4. Independencia de la plataforma y trabajo en red.</h5>
+			<h5>7.4. Independencia de la plataforma y trabajo en red.</h5>
 
 			<P>Existen dos características que distinguen a <B>Java
 			</B>de otros lenguajes, como son la <B>independencia de la plataforma</B>
@@ -1274,7 +1311,8 @@
 				<B>Máquina Virtual Java (MVJ o JVM – Java Virtual Machine) </B>que
 				es un programa escrito en código nativo de la plataforma destino
 				entendible por el hardware. Con esto se evita tener que realizar un
-				programa diferente para cada CPU o plataforma. <br>
+				programa diferente para cada
+				<acronym title="Central Processing Unit - Unidad Central de proceso"> CPU </acronym>o plataforma. <br>
 
 				Por
 				tanto, la parte que realmente es dependiente del sistema es la
@@ -1287,12 +1325,14 @@
 				lenguaje ofrece múltiples posibilidades para la comunicación vía
 				TCP/IP. Para poder hacerlo existen librerías que permiten el acceso
 				y la interacción con protocolos como 
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Http%20%28DAW_PROG01%29"  target="_blank" rel="noopener noreferrer">http</A>,
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Ftp%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">ftp</A>, etc., facilitando al programador las
+				<acronym title="El Protocolo de transferencia de hipertexto (en inglés, Hypertext Transfer Protocol, abreviado HTTP) es el protocolo de comunicación que permite las transferencias de información en la World Wide Web."> http					
+				</acronym> ,
+				<acronym title="El Protocolo de transferencia de archivos (en inglés File Transfer Protocol o FTP) es un protocolo de red para la transferencia de archivos entre sistemas conectados a una red TCP (Transmission Control Protocol), basado en la arquitectura cliente-servidor.">
+					ftp</acronym>, etc., facilitando al programador las
 				tareas del tratamiento de la información a través de redes.
 			</OL>
 
-			<h5 style="color: #42a5f5;">7.5. Seguridad y simplicidad.</h5>
+			<h5>7.5. Seguridad y simplicidad.</h5>
 
 			<P>Junto a las características diferenciadoras del
 			lenguaje Java relacionadas con la independencia y el trabajo en red,
@@ -1324,8 +1364,8 @@
 				fácil comenzar a escribir aplicaciones interesantes. <br>
 				Si has programado alguna vez en C o C++ encontrarás que Java te pone
 				las cosas más fáciles, ya que se han eliminado: la aritmética de
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Puntero%20%28DAW_PROG01%29"  target="_blank" rel="noopener noreferrer">
-				punteros</A>, los registros, la definición de
+				<acronym title="Un puntero es un objeto del lenguaje de programación, cuyo valor se refiere a (o 'apunta a') otro valor almacenado en otra parte de la memoria del ordenador utilizando su dirección."> 
+					punteros</acronym> , los registros, la definición de
 				tipos, la gestión de memoria, etc. Con esta simplificación se
 				reduce bastante la posibilidad de cometer errores comunes en los
 				programas. Un programador experimentado en C o C++ puede cambiar a
@@ -1335,8 +1375,11 @@
 				de un elemento muy útil como es el <B>Recolector de Basura (Garbage
 				collector)</B>. Permite al programador liberarse de la gestión de la
 				memoria y hace que ciertos bloques de memoria puedan reaprovecharse,
-				disminuyendo el número de huecos libres (<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Fragmentaci%C3%B3n%20de%20memoria%20%28DAW_PROG01%29"  target="_blank" rel="noopener noreferrer">
-				fragmentación de memoria</A>). <br>
+				disminuyendo el número de huecos libres (
+					<acronym title="Se produce cuando los procesos asignados han ocupado posiciones no contiguas de memoria dejando demasiados bloques libres de pequeño tamaño, en los que no 'caben' nuevos procesos.">
+						fragmentación de memoria
+					</acronym>
+				). <br>
 				Cuando realicemos programas, crearemos objetos, haremos que éstos interaccionen, etc.
 				Todas estas operaciones requieren de uso de memoria del sistema, pero
 				la gestión de ésta será realizada de manera transparente al
@@ -1377,14 +1420,17 @@
 			adicionales. </I></FONT>
 			</P>
 
-			<h5 style="color: #42a5f5;">7.6. Java y los Bytecodes.</h5>
+			<h5>7.6. Java y los Bytecodes.</h5>
 
 			<P>Un programa escrito en Java no es directamente
 			ejecutable, es necesario que el código fuente sea interpretado por
 			la Máquina Virtual Java. ¿Cuáles son los pasos que se siguen desde
 			que se genera el código fuente hasta que se ejecuta? A continuación,
-			se detallan cada uno de ellos. <br><br> <IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_5a597c9e.png" NAME="Imagen 19" ALIGN=LEFT HSPACE=12 WIDTH=142 HEIGHT=232 BORDER=0>
+			se detallan cada uno de ellos.</P> <br><br> 
+			<P ALIGN=CENTER>
+				<IMG SRC="../../images/programacion/programacion1/programas_en_Java.png" title="programas en java" NAME="programas en java" HSPACE=12 WIDTH=242  BORDER=0>
 			</P><br><br>
+
 			<P>Una vez <B>escrito el código fuente</B> (archivos
 			con extensión <FONT FACE="Consolas, serif"><B>.Java</B></FONT>),
 			éste <B>es precompilado generándose</B> los códigos de bytes,
@@ -1392,10 +1438,10 @@
 			que serán <B>interpretados</B> directamente <B>por la Máquina
 			Virtual Java </B>y traducidos a código nativo de la plataforma sobre
 			la que se esté ejecutando el programa. 
-			</P><br><br><br>
+			</P><br>
 
 			<blockquote>
-				<span style="background: #00ffff"><b>Bytecode: </b></span> Son un <b>conjunto de instrucciones en lenguaje máquina</b> que no 
+				<span class="contentTemary"><b>Bytecode: </b></span> Son un <b>conjunto de instrucciones en lenguaje máquina</b> que no 
 				son específicas a ningún procesador o sistema de cómputo. Un intérprete de código de bytes (bytecodes) para una plataforma 
 				específica será quien los ejecute. A estos intérpretes también se les conoce como Máquinas Virtuales Java o intérpretes Java 
 				de tiempo de ejecución.
@@ -1406,7 +1452,7 @@
 			cumplen las siguientes <B>condiciones</B>: 
 			</P>
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary">
 				<LI>El código <B>satisface
 				las especificaciones</B> de la Máquina Virtual Java.</LI>
 				<LI><B>No existe amenaza
@@ -1425,10 +1471,11 @@
 			para esa plataforma. En general, la Máquina Virtual Java es un
 			programa de reducido tamaño y gratuito para todos los sistemas
 			operativos. 
-			</P>
+			</P><br>
 			<P ALIGN=CENTER><IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_ac20c590.png" NAME="Imagen 20" ALIGN=BOTTOM WIDTH=444 HEIGHT=312 BORDER=0></P>
-			
-			<h4 style="color: #42a5f5;">8. Programas en Java.</h4>
+			<br>
+
+			<h4>8. Programas en Java.</h4>
 			
 			<P>Hasta ahora, hemos descrito el lenguaje de
 			programación Java, hemos hecho un recorrido por su historia y nos
@@ -1445,13 +1492,15 @@
 			lenguaje. 
 			</P>
 
-			<h5 style="color: #42a5f5;">8.1. Estructura de un programa.</h5>
+			<h5>8.1. Estructura de un programa.</h5>
 
 			<P>En el gráfico al que puedes acceder a continuación,
 			se presenta la estructura general de un programa realizado en un
 			lenguaje orientado a objetos como es Java. 
 			</P>
 			<P ALIGN=CENTER><IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_b6addf5b.png" NAME="Imagen 3" ALIGN=BOTTOM WIDTH=374 HEIGHT=229 BORDER=0></P>
+			<br>
+
 			<P>Vamos a analizar cada uno de los elementos que
 			aparecen en dicho gráfico:</P>
 
@@ -1465,10 +1514,10 @@
 			otras clases del usuario, pero sólo una puede ser <FONT FACE="Consolas, serif"><B>public</B></FONT>.
 			El nombre del fichero <FONT FACE="Consolas, serif"><B>.Java</B></FONT>
 			que contiene el código fuente de nuestro programa, coincidirá con
-			el nombre de la clase que estamos describiendo en estas líneas.</P>
+			el nombre de la clase que estamos describiendo en estas líneas.</P><br>
 
 			<blockquote>
-				<h6><i>Recomendación</i></h6>
+				<h4><i>Recomendación</i></h4>
 				<p>
 					Ten en cuenta que <B>Java distingue entre mayúsculas y minúsculas</B>.
 					Si le das a la clase principal el nombre PrimerPrograma, el archivo
@@ -1481,7 +1530,7 @@
 			</blockquote>
 			<br>	
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary">
 				<LI><FONT FACE="Consolas, serif"><B>public
 				static void main (String[] args)</B></FONT>: Es el método que
 				representa al programa principal, en él se podrán incluir las
@@ -1509,9 +1558,9 @@
 				terminar con punto y coma</B> (<B>;</B>). En caso de no hacerlo,
 				tendremos errores sintácticos. 
 				</LI>
-			</UL>
+			</UL><br>
 
-			<h5 style="color: #42a5f5;">8.2. El entorno básico de desarrollo Java.</h5>
+			<h5>8.2. El entorno básico de desarrollo Java.</h5>
 
 			<P >Ya conoces cómo es la estructura de un programa en
 			Java pero, ¿qué necesitamos para llevarlo a la práctica? La
@@ -1538,7 +1587,7 @@
 			Java.</P>
 
 			<blockquote>
-				<h6><i>Debes conocer</i></h6>
+				<h4><i>Debes conocer</i></h4>
 				<p>
 					Para poder utilizar JDK y JRE es necesario realizar la descarga e instalación de éstos. 
 					Puedes seguir los <a href="http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html" target="_blank" rel="noopener noreferrer">
@@ -1546,19 +1595,19 @@
 				    </a>, escogiendo el sistema operativo donde se quiera instalar. 
 				</p>
 				<p ALIGN=CENTER>
-					<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_aa5e91c1.png" NAME="Imagen 6" ALIGN=BOTTOM WIDTH=400 BORDER=0>
+					<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_aa5e91c1.png" title="JDK, JRE" NAME="Imagen 6" ALIGN=BOTTOM WIDTH=400 BORDER=0>
 				</p>
 				<P ALIGN=CENTER>
 				<FONT SIZE=1 STYLE="font-size: 8pt">FUENTE: <A HREF="http://www.oracle.com/technetwork/es/java/javase/downloads/index.html" target="_blank" rel="noopener noreferrer">ORACLE.JAVA
 				SE DOWNLOADS</A></FONT>
 				</P>				 
-			</blockquote>
+			</blockquote><br>
 
 			<P>Para poder desarrollar nuestros primeros programas
 			en Java sólo necesitaremos un editor de texto plano y los elementos
-			que acabamos de instalar a través de Java SE.</P>
+			que acabamos de instalar a través de Java SE.</P><br>
 
-			<h5 style="color: #42a5f5;">8.3. La API de Java.</h5>
+			<h5>8.3. La API de Java.</h5>
 
 			<P><B>Junto con el kit de desarrollo</B> que hemos
 			descargado e instalado anteriormente, <B>vienen incluidas
@@ -1569,8 +1618,8 @@
 			útiles para la realización de múltiples tareas</B> dentro de un
 			programa. Está organizada en paquetes lógicos, donde cada paquete
 			contiene un conjunto de clases relacionadas 
-			<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Sem%C3%A1ntica%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">
-				semánticamente</A>.
+			<acronym title="La semántica describe el proceso que una computadora sigue cuando ejecuta un programa en ese lenguaje específico."> semánticamente</acronym>
+				.
 			</P>
 			<P>En décadas pasadas una biblioteca era un conjunto
 			de programas que contenían cientos de rutinas (una rutina es un
@@ -1586,19 +1635,19 @@
 			desarrollo de los programas. También, existen diversas bibliotecas
 			de clases desarrolladas por terceros que contienen componentes
 			reutilizables de software, y están disponibles a través de la Web. 
-			</P>
+			</P><br>
 
 			<blockquote>
-				<h6><i>Para saber más</i></h6>
+				<h4><i>Para saber más</i></h4>
 				<p>
 					Si quieres acceder a la información oficial sobre la API de Java, te proponemos el siguiente enlace (está en inglés). <br>
 					 <a href="http://www.oracle.com/technetwork/Java/Javase/documentation/api-jsp-136079.html" target="_blank" rel="noopener noreferrer">
 						Información oficial sobre la API de Java
 					</a> 
 				</p>
-			</blockquote>
+			</blockquote><br>
 
-			<h5 style="color: #42a5f5;">8.4. Afinando la configuración.</h5>
+			<h5>8.4. Afinando la configuración.</h5>
 
 			<P><B>Para que podamos compilar y ejecutar ficheros
 			Java es necesario</B> que realicemos unos <B>pequeños ajustes en la
@@ -1621,10 +1670,10 @@
 			continuación: 
 			</P>
 
-			<TABLE WIDTH=586 CELLPADDING=7 CELLSPACING=0>
-				<COL WIDTH=570>
+			<TABLE class="contentTemary">
+				<COL>
 				<TR>
-					<TD WIDTH=570 VALIGN=TOP BGCOLOR="#fff2cc" STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+					<TD VALIGN=TOP BGCOLOR="#fff2cc" STYLE="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
 						<P ALIGN=JUSTIFY><B>Debes conocer</B></P>
 						<P ALIGN=JUSTIFY>Por tanto,<B> PATH</B> es la variable del sistema
 						que utiliza el sistema operativo para buscar los ejecutables
@@ -1636,6 +1685,7 @@
 						Solaris.</P>
 						<P ALIGN=JUSTIFY><B><A HREF="https://www.youtube.com/watch?v=_Z7-kKZ511w" target="_blank" rel="noopener noreferrer">Establecimiento
 						de la variable Path en Windows</A>:</B></P>
+						<P ALIGN=JUSTIFY><a href="https://answers.microsoft.com/es-es/windows/forum/windows_10-other_settings/windows-10-variables-de-entorno-windows-10-version/703ea5fa-1db4-46da-8ff7-6261140bf58b" title="Variables de Entorno w10 microsoft" target="_blank" rel="noopener noreferrer"><B>Windows 10 - Enlace externo a comunidad Microsoft</B></a></P>
 						<P ALIGN=JUSTIFY><B>Windows 8</B></P>
 						<OL>
 							<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Arrastre el
@@ -1757,9 +1807,10 @@
 					</TD>
 				</TR>
 			</TABLE>
+			<br>
 
 			<blockquote>
-				<h6><i>Para saber más</i></h6>
+				<h4><i>Para saber más</i></h4>
 				<P>
 					Si deseas conocer más sobre la configuración de variables de
 					entorno en sistema Linux, te proponemos el siguiente artículo para
@@ -1805,7 +1856,7 @@
 						<P ALIGN=JUSTIFY>En el caso de que tengas alguna duda, puedes
 						apoyarte en los recursos de ayuda que te relacionamos a
 						continuación:</P>
-						<UL style="list-style-type: circle;">
+						<UL class="contentTemary">
 							<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><A HREF="https://www.java.com/es/download/help/index_installing.xml" target="_blank" rel="noopener noreferrer">Instalación
 							de Java</A></P>
 							<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><A HREF="https://www.java.com/es/download/help/disable_browser.xml" target="_blank" rel="noopener noreferrer">Desactivar
@@ -1840,7 +1891,7 @@
 			la pregunta te pedía cuál es la variable, no cuál es el programa
 			para realizar la compilación.</P>
 
-			<h5 style="color: #42a5f5;">8.5. Codificación, compilación y ejecución de aplicaciones.</h5>
+			<h5>8.5. Codificación, compilación y ejecución de aplicaciones.</h5>
 
 			<P>Una vez que la configuración del entorno Java está
 			completada y tenemos el <B>código fuente</B> de nuestro programa
@@ -1950,14 +2001,14 @@
 			Módulo profesional – Programación”</B></FONT>. 
 			</P>
 
-			<h5 style="color: #42a5f5;">8.6. Tipos de aplicaciones en Java.</h5>
+			<h5>8.6. Tipos de aplicaciones en Java.</h5>
 
 			<P>La versatilidad del lenguaje de programación Java
 			permite al programador crear distintos tipos de aplicaciones. A
 			continuación, describiremos las características más relevantes de
 			cada uno de ellos:</P>
 
-			<UL style="list-style-type:disc">
+			<UL>
 				<LI><B>Aplicaciones de
 				consola: </B></LI>
 				
@@ -2058,7 +2109,7 @@
 			limitado al sistema del usuario. 
 			</P>
 
-			<h4 style="color: #42a5f5;">9. Entornos Integrados de Desarrollo (IDE).</h4>
+			<h4>9. Entornos Integrados de Desarrollo (IDE).</h4>
 
 			<P>En los comienzos de Java la utilización de la línea
 			de comandos era algo habitual. El programador escribía el código
@@ -2094,7 +2145,7 @@
 			también haremos un recorrido por otros entornos destacables. 
 			</P>
 
-			<h5 style="color: #42a5f5;">9.1. ¿Qué son?</h5>
+			<h5>9.1. ¿Qué son?</h5>
 
 			<P><B>IDE</B> (<I>Integrated Development Enviroment</I>):
 			son aplicaciones informáticas que <B>ofrecen la posibilidad de
@@ -2116,12 +2167,12 @@
 			no es más que una fachada para el proceso de compilación y
 			ejecución de un programa. ¿Qué quiere decir eso? Pues que, si
 			tenemos instalado un IDE y no tenemos instalado el compilador, no
-			tenemos nada.</P>
+			tenemos nada.</P><br>
 			<P ALIGN=JUSTIFY><IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_5b397ba0.png" NAME="Imagen 10" ALIGN=BOTTOM WIDTH=600  BORDER=0></P>
-			<P ALIGN=JUSTIFY><I>Fuente: </I><I><B>Maplesoft</B></I><I>.</I></P>
+			<P ALIGN=JUSTIFY><I>Fuente: </I><I><B>Maplesoft</B></I><I>.</I></P><br>
 
 			<blockquote>
-				<h6><i>Para saber más</i></h6>
+				<h4><i>Para saber más</i></h4>
 				<p>
 					Si deseas conocer algo más sobre lo que son los Entornos Integrados de Desarrollo (IDE) accede a las definiciones que te proponemos a continuación: <br>
 					<br>
@@ -2132,10 +2183,10 @@
 						Definición de Entorno Integrado de Desarrollo en Wikipedia.
 					</a> 
 				</p>
-			</blockquote>
+			</blockquote><br>
 			
 
-			<h5 style="color: #42a5f5;">9.2. IDE's actuales.</h5>
+			<h5>9.2. IDE's actuales.</h5>
 
 			<P>Existen en el mercado multitud de entornos de
 			desarrollo para el lenguaje Java, los hay de libre distribución, de
@@ -2147,7 +2198,7 @@
 			distribución</B> tenemos: 
 			</P>
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary">
 				<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><SPAN LANG="en"><B>NetBeans</B></SPAN></P>
 				<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><B>Eclipse</B></P>
 				<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><B>BlueJ</B></P>
@@ -2157,7 +2208,7 @@
 			<P ALIGN=JUSTIFY>Entre los que son <B>propietarios o de pago</B>
 			tenemos: 
 			</P>
-			<UL style="list-style-type: circle;">
+			<UL  class="contentTemary">
 				<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><B>IntelliJ IDEA</B></P>
 				<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><B>Jbuilder</B></P>
 				<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><B>Jcreator</B></P>
@@ -2165,10 +2216,10 @@
 			</UL>
 
 			<blockquote>
-				<h6><i>Debes conocer</i></h6>
+				<h4><i>Debes conocer</i></h4>
 				<p>Cada uno de los entornos nombrados más arriba posee características que los hacen diferentes unos de otros, pero para tener una 
 					idea general de la versatilidad y potencia de cada uno de ellos, accede a la siguiente tabla comparativa: </p>
-					<a href="http://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java"  target="_blank" rel="noopener noreferrer">
+					<a href="https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java"  target="_blank" rel="noopener noreferrer">
 						Comparativa entornos para Java
 					</a> 
 			</blockquote>
@@ -2182,20 +2233,20 @@
 			</P>
 
 			<blockquote>
-				<h6><i>Para saber más</i></h6>
+				<h4><i>Para saber más</i></h4>
 				<p>
 					Los programadores utilizan herramientas más sofisticadas, ya que facilitan el trabajo enormemente. Dentro de estas herramientas 
 					podríamos hablar de entornos de desarrollo (IDEs) o frameworks. Si quieres conocer la situación actual de uso y comparar los 
 					diferentes entornos integrados de desarrollo para el lenguaje de programación Java, puedes ampliar datos en el siguiente artículo:
 					<br>
-					<a href="http://aprenderaprogramar.es/index.php?option=com_content&amp;view=article&amp;id=398:netbeans-eclipse-jcreator-jbuilder-icual-es-el-mejor-entorno-de-desarrollo-ide-para-java-cu00613b&amp;catid=68:curso-aprender-programacion-java-desde-cero&amp;Itemid=188" target="_blank" rel="noopener noreferrer">
+					<a href="https://aprenderaprogramar.es/index.php?option=com_content&view=article&id=398:netbeans-eclipse-jcreator-jbuilder-icual-es-el-mejor-entorno-de-desarrollo-ide-para-java-cu00613b&catid=68:curso-aprender-programacion-java-desde-cero&Itemid=188" target="_blank" rel="noopener noreferrer">
 						Artículo con comparativa sobre utilización de entornos Java.
 					</a> 
 				</p>
 			</blockquote>
 			<br>
 
-			<h5 style="color: #42a5f5;">9.3. El entorno NetBeans.</h5>
+			<h5>9.3. El entorno NetBeans.</h5>
 
 			<P>Como se ha indicado anteriormente, el entorno de
 			desarrollo que vamos a utilizar a lo largo de los contenidos del
@@ -2217,68 +2268,73 @@
 			creado el lenguaje Java). Poco después, <B>Sun decidió que</B> el
 			producto <B>sería libre y de código abierto y nació Netbeans como
 			IDE de código abierto</B> para crear aplicaciones Java.
-			<IMG SRC="../../images/programacion/programacion1/47946a3350969d8400cb229204c35fb6_html_c71ed43a.png" NAME="Imagen 22" ALIGN=LEFT HSPACE=12 WIDTH=97 HEIGHT=433 BORDER=0></P>
-			<P >NetBeans lleva tiempo pugnando con Eclipse por
+			</P><br>
+			<p>
+				<IMG SRC="../../images/programacion/programacion1/versiones_netbeans.png" NAME="Imagen 22" ALIGN=LEFT  WIDTH=97 HEIGHT=433 BORDER=0>
+			</p>
+				
+			<P style="padding-left: 12rem !important;" >NetBeans lleva tiempo pugnando con Eclipse por
 			convertirse en la plataforma más importante para crear aplicaciones
 			en Java. Hoy en día es un producto en el que participan decenas de
 			empresas con Sun a la cabeza. Sigue siendo software libre y ofrece
 			las siguientes posibilidades:</P>
 
-			<UL style="list-style-type: circle;">
+			<UL class="contentTemary" style="padding-left: 15rem !important;">
 				<LI>Escribir código en
-				C, C++, <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Ruby%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Ruby</A>, 
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Groovy%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Groovy</A>,
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Javascript%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Javascript</A>, 
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=CSS%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">CSS</A> y 
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=PHP%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">PHP</A>
+				C, C++, <acronym title="Lenguaje de programación interpretado, reflexivo y orientado a objetos. Su implementación oficial es distribuida bajo una licencia de software libre."> Ruby</acronym>, 
+				<acronym title="Lenguaje de programación orientado a objetos implementado sobre la plataforma Java. Desde Groovy se puede acceder directamente a todas las API existentes en Java. El bytecode generado en el proceso de compilación es totalmente compatible con el generado por el lenguaje Java para la Java Virtual Machine (JVM), por tanto puede usarse directamente en cualquier aplicación Java. Todo lo anterior unido a que la mayor parte de código escrito en Java es totalmente válido en Groovy hacen que este lenguaje sea de muy fácil adopción para programadores Java."> Groovy</acronym>,
+		        <acronym title="Lenguaje de programación interpretado. Se utiliza principalmente en su forma del lado del cliente (clientside), implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas. Todos los navegadores modernos interpretan el código JavaScript integrado en las páginas web."> Javascript</acronym>,
+				<acronym title="Hojas de estilo en cascada (en inglés Cascading Style Sheets), CSS es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML o XML."> CSS</acronym> y,
+				<acronym title="Lenguaje de programación interpretado, diseñado originalmente para la creación de páginas web dinámicas. Es usado principalmente para la interpretación del lado del servidor (serverside scripting), pero actualmente puede ser utilizado desde una interfaz de línea de comandos, o en la creación de otros tipos de programas, incluyendo aplicaciones con interfaz gráfica usando las bibliotecas Qt o GTK+."> PHP </acronym>
 				además de Java.</LI>
 				<LI>Permitir crear
 				aplicaciones J2EE gracias a que incorpora servidores de aplicaciones
-				Java (actualmente <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Glassfish%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Glassfish</A> 
-				y <A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Tomcat%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Tomcat</A>)</LI>
+				Java (actualmente <acronym title="Servidor de aplicaciones de software libre desarrollado por Sun Microsystems, que implementa las tecnologías definidas en la plataforma Java EE y permite ejecutar aplicaciones que siguen esta especificación."> Glassfish </acronym> 
+				y <acronym title="Funciona como un contenedor de servlets desarrollado bajo el proyecto Jakarta en la Apache Software Fundation. Tomcat implementa las especificaciones de los servlets y de JavaServer Pages de Sun Microsystems. Se le considera un servidor de aplicaciones, hay que tener en cuenta que Tomcat puede utilizarse como servidor web independiente, o bien como una extensión del servidor web ya instalado."> Tomcat</acronym> )</LI>
 				<LI>Crear aplicaciones
-				<A HREF="https://fpdistancia.educa.jcyl.es/mod/glossary/showentry.php?displayformat=dictionary&concept=Swing%20%28DAW_PROG01%29" target="_blank" rel="noopener noreferrer">Swing</A> de forma sencilla, al estilo del Visual
+				<acronym title="Es una biblioteca gráfica para Java. Incluye elementos para interfaz gráfica de usuario tales como cajas de texto, botones, desplegables y tablas.
+				"> Swing</acronym> de forma sencilla, al estilo del Visual
 				Studio de Microsoft.</LI>
 				<LI>Crear aplicaciones <B>JME</B> para dispositivos
 				móviles.</LI>
 			</UL>
 
-			<P>La última versión lanzada, en octubre de 2014, es
+			<P style="padding-left: 12rem !important;" >La última versión lanzada, en octubre de 2014, es
 			la <B>NetBeans 8.0.2.</B></P>
 			<P>Sistema operativo: multiplataforma. 
 			</P>
-			<P>La plataforma NetBeans permite que las aplicaciones
+			<P style="padding-left: 12rem !important;" >La plataforma NetBeans permite que las aplicaciones
 			sean desarrolladas a partir de un conjunto de componentes de software
 			llamados módulos. Un módulo es un archivo Java que contiene clases
 			de Java escritas para interactuar con las APIs de NetBeans y un
 			archivo especial (manifest file) que lo identifica como módulo.</P>
-			<P>Las aplicaciones construidas a partir de módulos
+			<P style="padding-left: 12rem !important;" >Las aplicaciones construidas a partir de módulos
 			pueden ser extendidas agregándole nuevos módulos. Debido a que los
 			módulos pueden ser desarrollados independientemente, las
 			aplicaciones basadas en esta plataforma pueden ser extendidas
 			fácilmente por cualquiera que desarrolle también software.</P>
-			<P>Cada módulo provee una función bien definida,
+			<P style="padding-left: 12rem !important;" >Cada módulo provee una función bien definida,
 			tales como el soporte de Java, edición, o soporte para el sistema de
 			control de versiones. NetBeans contiene todos los módulos necesarios
 			para el desarrollo de aplicaciones Java en una sola descarga,
 			permitiendo a la persona que va a realizar el programa comenzar a
-			trabajar inmediatamente.</P>
+			trabajar inmediatamente.</P><br>
 
 			<blockquote>
-				<h6><i>Para saber más</i></h6>
+				<h4><i>Para saber más</i></h4>
 				<p>
 					Encuentra más información sobre esta plataforma en los enlaces que te proponemos a continuación: <br>
-					<a href="http://netbeans.org/index_es.html" target="_blank" rel="noopener noreferrer">
+					<a href="https://netbeans.org/index_es.html" target="_blank" rel="noopener noreferrer">
 						Información oficial sobre NetBeans.
 					</a> <br>
-					<a href="http://es.wikipedia.org/wiki/NetBeans#Versiones" target="_blank" rel="noopener noreferrer">
+					<a href="https://es.wikipedia.org/wiki/NetBeans#Versiones" target="_blank" rel="noopener noreferrer">
 						Versiones del entorno NetBeans.
 					</a>
 				</p>
-			</blockquote>
+			</blockquote><br>
 			
 
-			<h5 style="color: #42a5f5;">9.4. Instalación y configuración.</h5>
+			<h5>9.4. Instalación y configuración.</h5>
 
 			<P>Para realizar la instalación del entorno NetBeans,
 			seguiremos los siguientes pasos básicos: 
@@ -2320,16 +2376,16 @@
 			enlaces: 
 			</P>
 
-			<P ALIGN=CENTER STYLE="margin-bottom: 0in"><A HREF="http://netbeans.org/downloads/index.html" target="_blank" rel="noopener noreferrer">Descarga
+			<P ALIGN=CENTER STYLE="margin-bottom: 0in"><A HREF="https://netbeans.apache.org/download/index.html" title="Descarga NetBeans en Ingles (sin JDK)" target="_blank" rel="noopener noreferrer">Descarga
 			únicamente NetBeans si tienes ya instalado el JDK. (Esta versión
 			aún no incluye lenguaje Español)</A></P>
-			<P ALIGN=CENTER STYLE="margin-bottom: 0in"><A HREF="http://netbeans-ide.softonic.com/" target="_blank" rel="noopener noreferrer">Descarga
+			<P ALIGN=CENTER STYLE="margin-bottom: 0in"><A HREF="https://netbeans-ide.softonic.com/" title="Descarga NetBeans en Español (sin JDK)" target="_blank" rel="noopener noreferrer">Descarga
 			sólo NetBeans en Español, sin JDK</A></P>
-			<P ALIGN=CENTER><A HREF="http://www.oracle.com/technetwork/Java/Javase/downloads/jdk-netbeans-jsp-142931.html" target="_blank" rel="noopener noreferrer">Descarga
-			NetBeans y JDK desde la página oficial de ORACLE</A></P>
+			<P ALIGN=CENTER><A HREF="https://netbeans.apache.org/" title="Descarga completa desde la pagina de Apache-Netbeans" target="_blank" rel="noopener noreferrer">Descarga
+			NetBeans y JDK desde la página oficial de APACHE NETBEANS</A></P>
 
 			<blockquote>
-				<h6><i>Debes conocer</i></h6>
+				<h4><i>Debes conocer</i></h4>
 				<p>Para aprender cómo realizar la instalación completa, JDK y NetBeans, 
 					en sus últimas versiones es importante que sigas las indicaciones que se muestran en el siguiente artículo:
 				</p>
@@ -2337,9 +2393,9 @@
 					Guía para la instalación detallada del JDK y NetBeans en su versión completa
 				</a>.
 	
-			</blockquote>
+			</blockquote><br>
 
-			<h5 style="color: #42a5f5;">9.5. Aspecto del entorno y gestión de proyectos.</h5>
+			<h5>9.5. Aspecto del entorno y gestión de proyectos.</h5>
 
 			<P>La pantalla inicial de nuestro entorno de desarrollo
 			ofrece accesos directos a las operaciones más usuales: aprendizaje
@@ -2385,8 +2441,13 @@
 			se alojan <B>en</B> la carpeta <B>build</B> y los archivos con el
 			<B>código fuente</B> se alojan <B>en </B>la carpeta<B> src</B>. 
 			</P>
+
+			<br><br>
 	
-			<h5 style="color: #42a5f5;">FUENTE ORIGINAL: MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL.</h5>
+			<h5 style="color: #42a5f5;">
+				FUENTE ORIGINAL: MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL.
+				<a href="https://www.educacionyfp.gob.es/fpadistancia/comunes/aviso-legal-materiales.html"  title=" Aviso legal" target="_blank" rel="noopener noreferrer"> (Aviso Legal).</a>
+			</h5>
         </div>
       </div>
     </div>

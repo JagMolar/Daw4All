@@ -157,6 +157,44 @@ h1.lessmar {
 h1.lessmar2 {
 	margin-bottom: 5px;
 }
+
+h1, h2, h3, h4, h5, h6 .contentTemary {
+	color: #42a5f5 !important;
+}
+
+table.contentTemary{
+	border: 2px solid black;
+}
+
+table th{
+	border: 2px solid black;
+	background: #deeaf6;
+}
+
+table td.resalted{
+	border: 2px solid black;
+	background: #deeaf6;
+}
+
+table td{
+	border: 2px solid black; 
+	padding: 1rem;
+	/* padding-left: 2rem;
+	padding-right: 1rem; */
+}
+
+ul.contentTemary{
+	list-style-image: url("../images/small-lower_next_arrow_right_19323.png");
+}
+
+
+span.contentTemary{
+	background: #00ffff;
+}
+
+
+
+
 h2 {
 	font-size: 35px;
 	line-height: 35px;
