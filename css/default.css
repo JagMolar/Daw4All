@@ -157,9 +157,12 @@ h1.lessmar {
 h1.lessmar2 {
 	margin-bottom: 5px;
 }
+h1, h2, h3, h4, h5, h6 .index {
+	color: #fff;
+}
 
 h1, h2, h3, h4, h5, h6 .contentTemary {
-	color: #42a5f5 !important;
+	color: #42a5f5;
 }
 
 table.contentTemary{
